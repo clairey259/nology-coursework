@@ -68,12 +68,27 @@ h2 {
   background-color: darkred;
 }
 
-
 #flag-one:hover .colour-b{
   background-color: white;
 }
 
-
 #flag-one:hover .colour-c{
   background-color: darkgreen;
+}
+
+
+#flag-two {
+  display: inline-block;
+}
+
+#flag-two:hover .colour-d{
+  background-color: darkgreen;
+}
+
+#flag-two:hover .colour-e{
+  background-color: white;
+}
+
+#flag-two:hover .colour-f{
+  background-color: darkred;
 }
