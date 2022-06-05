@@ -3,11 +3,9 @@ body {
   color: black;
   margin: 30px;
   background-color: whitesmoke;
-
 }
 
-h1,
-h2 {
+h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1em;
 }
@@ -64,31 +62,44 @@ h2 {
   display: inline-block;
 }
 
-#flag-one:hover .colour-a{
+#flag-one:hover .colour-a {
   background-color: darkred;
 }
 
-#flag-one:hover .colour-b{
+#flag-one:hover .colour-b {
   background-color: white;
 }
 
-#flag-one:hover .colour-c{
+#flag-one:hover .colour-c {
   background-color: darkgreen;
 }
 
+#flag-one:hover::before {
+  content: "Hungarian Flag";
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: .7em;
+  font-weight: bold;
+}
+
+#flag-one::before {
+  content: "German Flag";
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: .7em;
+  font-weight: bold;
+}
 
 #flag-two {
   display: inline-block;
 }
 
-#flag-two:hover .colour-d{
+#flag-two:hover .colour-d {
   background-color: darkgreen;
 }
 
-#flag-two:hover .colour-e{
+#flag-two:hover .colour-e {
   background-color: white;
 }
 
-#flag-two:hover .colour-f{
+#flag-two:hover .colour-f {
   background-color: darkred;
 }
