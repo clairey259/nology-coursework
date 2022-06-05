@@ -10,6 +10,11 @@ h1 {
   font-size: 1em;
 }
 
+p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 0.5em ;
+}
+
 .colour-a {
   background-color: black;
   height: 83px;
@@ -62,18 +67,6 @@ h1 {
   display: inline-block;
 }
 
-#flag-one:hover .colour-a {
-  background-color: darkred;
-}
-
-#flag-one:hover .colour-b {
-  background-color: white;
-}
-
-#flag-one:hover .colour-c {
-  background-color: darkgreen;
-}
-
 #flag-one:hover::before {
   content: "Hungarian Flag";
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -88,8 +81,34 @@ h1 {
   font-weight: bold;
 }
 
+#flag-one:hover .colour-a {
+  background-color: darkred;
+}
+
+#flag-one:hover .colour-b {
+  background-color: white;
+}
+
+#flag-one:hover .colour-c {
+  background-color: darkgreen;
+}
+
 #flag-two {
   display: inline-block;
+}
+
+#flag-two:hover::before {
+  content: "Irish Flag";
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: .7em;
+  font-weight: bold;
+}
+
+#flag-two::before {
+  content: "French Flag";
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: .7em;
+  font-weight: bold;
 }
 
 #flag-two:hover .colour-d {
