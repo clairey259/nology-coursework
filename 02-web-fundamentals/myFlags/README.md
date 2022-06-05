@@ -1,5 +1,3 @@
-Using the 3 children to show each example,run through each of the following position values in css.
-
 1. Static
 2. Relative
 3. Absolute

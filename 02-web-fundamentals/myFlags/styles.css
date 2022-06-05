@@ -1,8 +1,9 @@
-* {
+body {
   font-size: 40px;
   color: black;
   margin: 30px;
   background-color: whitesmoke;
+
 }
 
 h1,
@@ -11,15 +12,10 @@ h2 {
   font-size: 1em;
 }
 
-.colour-a:hover {
-  background-color:red;
-}
-
+.colour-a {
   background-color: black;
   height: 83px;
   width: 300px;
-  top: 0px;
-  left: 0px;
   position: relative;
 }
 
@@ -27,8 +23,6 @@ h2 {
   background-color: maroon;
   height: 83px;
   width: 300px;
-  top: -30px;
-  left: 0px;
   position: relative;
 }
 
@@ -36,8 +30,6 @@ h2 {
   background-color: goldenrod;
   height: 83px;
   width: 300px;
-  top: -60px;
-  left: 0px;
   position: relative;
 }
 
@@ -55,7 +47,7 @@ h2 {
   height: 250px;
   width: 100px;
   position: relative;
-  top: -280px;
+  top: -250px;
   left: 100px;
 }
 
@@ -64,6 +56,24 @@ h2 {
   height: 250px;
   width: 100px;
   position: relative;
-  top: -560px;
+  top: -500px;
   left: 200px;
+}
+
+#flag-one {
+  display: inline-block;
+}
+
+#flag-one:hover .colour-a{
+  background-color: darkred;
+}
+
+
+#flag-one:hover .colour-b{
+  background-color: white;
+}
+
+
+#flag-one:hover .colour-c{
+  background-color: darkgreen;
 }
