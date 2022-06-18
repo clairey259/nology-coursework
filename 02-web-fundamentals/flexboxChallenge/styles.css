@@ -14,16 +14,15 @@
   text-align: center;
 }
 
-.link-container{
-    display: flex;
-    height: 50px;
-    width: 100px;
-    font-size: 16px;
+.link-container {
+  display: flex;
+  height: 50px;
+  width: 100px;
+  font-size: 16px;
 }
 
-
 h2:hover {
-    color: red;
+  color: red;
 }
 
 h3 {
@@ -66,9 +65,8 @@ h3 {
 .all-panels {
   display: flex;
   flex-direction: column;
-  
 }
 
 main {
-    display: flex;
+  display: flex;
 }
