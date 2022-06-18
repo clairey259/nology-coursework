@@ -1,0 +1,110 @@
+.body {
+  height: auto;
+  width: auto;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16;
+}
+
+#nology {
+  width: 200px;
+  height: 50px;
+  background-color: green;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
+
+.link-container {
+  display: flex;
+  height: 50px;
+  width: 100px;
+  font-size: 16px;
+}
+
+h2:hover {
+  color: red;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+.all-links {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  justify-content: flex-end;
+  background-color: black;
+  color: white;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.panel-container1 {
+  display: flex;
+  height: 150px;
+  width: 800px;
+  border: solid;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.panel-container2 {
+  display: flex;
+  height: 150px;
+  width: 800px;
+  border: solid;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  justify-content: flex-end;
+}
+
+.panel-container3 {
+  display: flex;
+  height: 150px;
+  width: 800px;
+  border: solid;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-style: solid;
+  margin: 20px;
+  padding: 10px;
+}
+
+.all-panels {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  margin: 10px;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+}
+
+main {
+  display: flex;
+}
+
+ul {
+  line-height: 30px;
+}
