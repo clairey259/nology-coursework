@@ -6,6 +6,15 @@
   font-size: 16;
 }
 
+main {
+  display: flex;
+  margin: 20px;
+}
+
+.nav-bar {
+  display: flex;
+}
+
 #nology {
   width: 200px;
   height: 50px;
@@ -13,6 +22,15 @@
   color: white;
   font-size: 10px;
   text-align: center;
+}
+
+.all-links {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  justify-content: flex-end;
+  background-color: black;
+  color: white;
 }
 
 .link-container {
@@ -26,21 +44,9 @@ h2:hover {
   color: red;
 }
 
-h3 {
-  font-size: 14px;
-}
-
-.all-links {
+.all-panels {
   display: flex;
-  height: 50px;
-  width: 100%;
-  justify-content: flex-end;
-  background-color: black;
-  color: white;
-}
-
-.nav-bar {
-  display: flex;
+  flex-direction: column;
 }
 
 .panel-container1 {
@@ -49,7 +55,7 @@ h3 {
   width: 800px;
   border: solid;
   align-items: center;
-  margin: 20px;
+  margin-bottom: 10px;
   padding: 10px;
   justify-content: space-around;
 }
@@ -60,7 +66,7 @@ h3 {
   width: 800px;
   border: solid;
   align-items: center;
-  margin: 20px;
+  margin-bottom: 10px;
   padding: 10px;
   justify-content: flex-end;
 }
@@ -71,24 +77,9 @@ h3 {
   width: 800px;
   border: solid;
   align-items: center;
-  margin: 20px;
   padding: 10px;
   flex-direction: row-reverse;
   justify-content: flex-end;
-}
-
-.right-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  border-style: solid;
-  margin: 20px;
-  padding: 10px;
-}
-
-.all-panels {
-  display: flex;
-  flex-direction: column;
 }
 
 .box {
@@ -101,10 +92,15 @@ h3 {
   font-size: 10px;
 }
 
-main {
+.right-container {
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-style: solid;
+  margin-left: 10px;
+  padding: 10px;
 }
 
-ul {
-  line-height: 30px;
+h3 {
+  font-size: 14px;
 }
