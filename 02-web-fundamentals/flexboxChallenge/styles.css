@@ -1,0 +1,71 @@
+.body {
+    height: auto;
+    width: auto;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nology {
+    width: 200px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    font-size: 10px;
+}
+h2 {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 14px;
+}
+.link-container {
+
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: flex-end;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+
+}
+
+.nav-bar {
+    display: flex;
+}
+.panel-container {
+    height: 150px;
+    width: 70%;
+    border-style: solid;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    font-size: 12px;
+  }
+
+.right-container {
+    height: 150px;
+    width: 30%;
+    border-style: solid;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.content {
+   display: flex;
+   flex-direction: column;
+}
+  /* 
+  -----------------------------
+  flex-direction: row;
+  
+  
+  row | row-reverse | column | column-reverse; */
+  
+  -----------------------------
+  /* 
+  flex-wrap: wrap-reverse;
+  
+  nowrap | wrap | wrap-reverse; */
+  -----------------------------`
