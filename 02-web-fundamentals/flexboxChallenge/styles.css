@@ -6,6 +6,10 @@
   font-size: 16;
 }
 
+.nav-bar {
+  display: flex;
+}
+
 #nology {
   width: 200px;
   height: 50px;
@@ -18,6 +22,15 @@
 .link-container {
   display: flex;
   height: 50px;
+  width: 100%;
+  justify-content: flex-end;
+  background-color: black;
+  color: white;
+}
+
+.link-item {
+  display: flex;
+  height: 50px;
   width: 100px;
   font-size: 16px;
 }
@@ -26,31 +39,22 @@ h2:hover {
   color: red;
 }
 
-h3 {
-  font-size: 14px;
-}
-
-.all-links {
+main {
   display: flex;
-  height: 50px;
-  width: 100%;
-  justify-content: flex-end;
-  background-color: black;
-  color: white;
-}
-
-.nav-bar {
-  display: flex;
+  margin: 20px;
 }
 
 .panel-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-item {
   height: 150px;
-  width: 800px;
+  width: 700px;
   border: solid;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: 20px;
   padding: 10px;
+  margin-bottom: 10px;
 }
 
 .right-container {
@@ -58,17 +62,9 @@ h3 {
   flex-direction: column;
   justify-content: flex-start;
   border-style: solid;
-  margin: 20px;
   padding: 10px;
-}
-
-.all-panels {
-  display: flex;
-  flex-direction: column;
-}
-
-main {
-  display: flex;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 ul {
