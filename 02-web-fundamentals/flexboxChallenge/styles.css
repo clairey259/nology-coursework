@@ -1,71 +1,74 @@
 .body {
-    height: auto;
-    width: auto;
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+  height: auto;
+  width: auto;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #nology {
-    width: 200px;
-    height: 50px;
-    background-color: green;
-    color: white;
-    font-size: 10px;
+  width: 200px;
+  height: 50px;
+  background-color: green;
+  color: white;
+  font-size: 10px;
+  text-align: center;
 }
-h2 {
+
+.link-container{
+    display: flex;
+    height: 50px;
+    width: 100px;
     font-size: 16px;
 }
 
-h3 {
-    font-size: 14px;
+
+h2:hover {
+    color: red;
 }
-.link-container {
 
-    display: flex;
-    height: 50px;
-    width: 100%;
-    justify-content: flex-end;
-    background-color: black;
-    color: white;
-    font-size: 12px;
+h3 {
+  font-size: 14px;
+}
 
+.all-links {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  justify-content: flex-end;
+  background-color: black;
+  color: white;
+  font-size: 12px;
 }
 
 .nav-bar {
-    display: flex;
+  display: flex;
 }
+
 .panel-container {
-    height: 150px;
-    width: 70%;
-    border-style: solid;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 20px;
-    font-size: 12px;
-  }
+  height: 150px;
+  width: 800px;
+  border: solid;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 10px;
+  font-size: 12px;
+}
 
 .right-container {
-    height: 150px;
-    width: 30%;
-    border-style: solid;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 20px;
+  display: flex;
+  border-style: solid;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 10px;
 }
-.content {
-   display: flex;
-   flex-direction: column;
+
+.all-panels {
+  display: flex;
+  flex-direction: column;
+  
 }
-  /* 
-  -----------------------------
-  flex-direction: row;
-  
-  
-  row | row-reverse | column | column-reverse; */
-  
-  -----------------------------
-  /* 
-  flex-wrap: wrap-reverse;
-  
-  nowrap | wrap | wrap-reverse; */
-  -----------------------------`
+
+main {
+    display: flex;
+}
