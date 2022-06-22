@@ -1,0 +1,31 @@
+/* Import styles sheets */
+@import url(./base.scss);
+@import url(./layout.scss);
+@import url(./components.scss);
+
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Monofett&family=Monoton&family=Roboto&family=Space+Mono&display=swap');
+
+/* Variables */
+$font-body: "Space Mono", monospace;
+$font-display: "Dancing script", fantasy;
+
+$color-primary: #604567;
+$color-primary-dark: #503258B2;
+$color-secondary: #7CC7E4;
+$color-black: #2C073580;
+$color-white: #F9F6F0;
+
+/* Page Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-body;
+  color: $color-black;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
