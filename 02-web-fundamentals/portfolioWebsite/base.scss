@@ -6,7 +6,7 @@ $font-body: 'Space Mono', cursive;
 $font-display: "Dancing script", fantasy;
 
 $color-primary: #604567;
-$color-primary-dark: #503258B2;
+$color-primary-dark: rgba(80, 50, 88, 0.698);
 $color-secondary: #7CC7E4;
 $color-black: #2C073580;
 $color-white: #F9F6F0;
@@ -17,7 +17,8 @@ $color-white: #F9F6F0;
   padding: 0;
   box-sizing: border-box;
   font-family: $font-body;
-  color: $color-black;
+  color: $color-white;
+  background-color: $color-primary;
 }
 
 a:link
