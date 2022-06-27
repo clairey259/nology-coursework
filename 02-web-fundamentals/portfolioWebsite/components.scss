@@ -1,6 +1,83 @@
-.title {
-    font-family: $font-display;
-}
-.page__icons{
+nav {
+  justify-content: right;
+  i {
     color: $color-secondary;
+    font-size: 3em;
+    margin: 20px;
+  }
+  a {
+    color: $color-secondary;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  .nav__desktop {
+    display: flex;
+    justify-items: right;
+  }
+}
+
+.landingPage {
+  display: flex;
+  flex-direction: column;
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 20px;
+    vertical-align: Top;
+    flex-grow: 1;
+
+
+    div {
+      font-family: $font-display;
+      font-style: Regular;
+      font-size: 60px;
+      line-height: 3.75em;
+      line-height: 74%;
+
+      letter-spacing: 2%;
+    }
+  }
+  .heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    margin: 20px;
+    flex-grow: 1;
+    div {
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 3.125em;
+      line-height: 74px;
+      text-align: right;
+    }
+  }
+  &__p {
+    font-size: 10px;
+    opacity: 70%;
+  }
+  i {
+    font-size: 2em;
+  }
+}
+
+.page__icons {
+  display: flex;
+  justify-content: center;
+
+  &--mod {
+    color: $color-secondary;
+    display: flex;
+    margin: 20px;
+    font-size: 4em;
+  }
 }

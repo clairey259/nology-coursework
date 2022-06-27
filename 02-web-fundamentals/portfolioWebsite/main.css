@@ -8,10 +8,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Space Mono", mono;
+  color: #F9F6F0;
   background-color: #604567;
 }
 
-a:link a:visited {
+a:link,
+a:visited {
   text-decoration: none;
 }
 
@@ -33,21 +35,38 @@ a:link a:visited {
 
 nav {
   width: 100%;
-  height: 50px;
   color: #7CC7E4;
+  display: flex;
 }
 
-@media only screen and (max-width: 600px) {
+.firstpage {
+  display: flex;
+  height: 100vh;
+}
+
+.page {
+  display: flex;
+  height: 100vh;
+}
+
+.page__project {
+  display: grid;
+  height: 100vh;
+}
+
+/* phone screen */
+@media only screen and (max-width: 768px) {
   .nav__mobile {
     display: flex;
     justify-content: space-between;
   }
 
   .nav__desktop {
-    display: none;
+    display: none !important;
   }
 }
-@media only screen and (min-width: 600px) {
+/* desktop screen */
+@media only screen and (min-width: 768px) {
   .nav__mobile {
     display: none;
   }
@@ -55,11 +74,90 @@ nav {
   .nav__desktop {
     display: block;
   }
+
+  .landingPage .heading {
+    flex-direction: row !important;
+  }
+  .landingPage .title {
+    flex-direction: row !important;
+  }
 }
-.title {
+nav {
+  justify-content: right;
+}
+nav i {
+  color: #7CC7E4;
+  font-size: 3em;
+  margin: 20px;
+}
+nav a {
+  color: #7CC7E4;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+nav .nav__desktop {
+  display: flex;
+  justify-items: right;
+}
+
+.landingPage {
+  display: flex;
+  flex-direction: column;
+}
+.landingPage .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin: 20px;
+  vertical-align: Top;
+  flex-grow: 1;
+}
+.landingPage .title div {
   font-family: "Monofett", fantasy;
+  font-style: Regular;
+  font-size: 60px;
+  line-height: 3.75em;
+  line-height: 74%;
+  letter-spacing: 2%;
+}
+.landingPage .heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  margin: 20px;
+  flex-grow: 1;
+}
+.landingPage .heading div {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.125em;
+  line-height: 74px;
+  text-align: right;
+}
+.landingPage__p {
+  font-size: 10px;
+  opacity: 70%;
+}
+.landingPage i {
+  font-size: 2em;
 }
 
 .page__icons {
+  display: flex;
+  justify-content: center;
+}
+.page__icons--mod {
   color: #7CC7E4;
+  display: flex;
+  margin: 20px;
+  font-size: 4em;
 }
